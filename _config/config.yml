@@ -1,0 +1,11 @@
+---
+Name: eform-rente-r0820
+---
+# Signature in mm from the top-left corner of page 4 ("Unterschrift der Antragstellerin / des Antragstellers").
+# Positive page number: stays correct when the CMS PDF omits the explanation pages 5-6.
+# PDFMultiFormPage.SignaturePositionX/Y override x/y.
+#
+# Kalakotra\EFormRenteR0820\Model\Submission:
+#   signature_positions:
+#     main: { page: 4, x: 100.0, y: 151.0, width: 40.0 }
+#   replacement_font: 'fonts/LiberationSans-Regular.ttf'   # '' = disabled (then values are transliterated to ASCII)
